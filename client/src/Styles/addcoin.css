@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.coincontaineradd{
+    padding: 0.5em;
+    border-top: 1px solid gray;
+}
+
+.coincontaineradd span{
+    margin-top: 50px;
+    text-decoration: none;
+
+}
+
+.coinadd{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+
+.coinInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.coinInfo label{
+    padding: 0.5em;
+}
+
+
+.coinInfo img {
+    max-width: 30%;
+    margin-left: 10px;
+}
+
+
+.price{
+    color: antiquewhite;
+    font-size: larger;
+}
+
+.hearth{
+    color: pink;
+}
+
+.hidden{
+    opacity: 0.1;
+}
+
+
+.infoforcolumns{
+    display: grid;
+    grid-template-columns: 39% 25%;
+    justify-items: end;
+}
+
+.infoforcolumns span{
+    color: gray;
+    font-size: larger;
+}

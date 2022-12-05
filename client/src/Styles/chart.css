@@ -1,0 +1,82 @@
+.chartContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex: 1;
+}
+
+canvas{
+    background-color: black;
+    width: 90vh;
+}
+
+   
+.lineChartContainer{
+    width: 90%;
+    height: 50vh;
+}
+
+
+.chartButtons button{
+    padding: 1em;
+    margin: 1em;
+
+}
+
+.chartPriceContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.chartHeader{
+    color: whitesmoke;
+}
+
+
+.chartSpan{
+    color: gray;
+    font-size: larger;
+    margin-top: 1em;
+}
+
+.priceup{
+    color: green;
+    margin: 1em;
+    font-size: larger;
+}
+
+
+.pricedown{
+    color: red;
+    padding: 1em;
+    font-size: larger;
+}
+
+.currentPrice{
+    font-size: larger;
+    padding: 1em;
+    color: whitesmoke;
+}
+
+
+
+@media only screen and (max-width: 546px) {
+    .lineChartContainer{
+        width: 100%;
+
+    }
+
+    .chartPriceContainer{
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .chartPriceContainer span{
+        font-size: 1.5em;
+    }
+
+  }

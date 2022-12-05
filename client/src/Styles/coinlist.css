@@ -1,0 +1,13 @@
+.coinlist{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.coinlistHeader{
+    color: whitesmoke;
+    margin: 1em 0;
+}

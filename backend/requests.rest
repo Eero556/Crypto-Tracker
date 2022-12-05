@@ -1,0 +1,49 @@
+POST http://localhost:4000/auth/register
+Content-Type: application/json
+
+{
+    "username": "Admin",
+    "email": "jetii2222222@perkele.com",
+    "passhass": "123123",
+    "role": "admin"
+}
+
+###
+
+POST http://localhost:4000/auth/login
+Content-Type: application/json
+
+{
+    "email": "eero.kantonen@elisanet.fi",
+    "passhass": "123123"
+}
+
+###
+GET http://localhost:4000/auth/
+
+###
+
+PUT http://localhost:4000/auth/1
+Content-Type: application/json
+
+{
+    "username": "sqwewqewq"
+}
+
+###
+
+DELETE http://localhost:4000/auth/1
+
+
+
+###
+GET http://localhost:4000/auth/logout
+
+###
+
+GET http://localhost:4000/auth/search
+
+
+
+
+

@@ -1,0 +1,47 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile p {
+    color: whitesmoke;
+}
+
+
+.profileWatchlist{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+}
+
+.profileHeader{
+    color: whitesmoke;
+    margin-top: 3em;
+}
+
+.logOutButton{
+    margin: 4em 0;
+    padding: 1em;
+}
+
+.profileContainer{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+
+.usersArray{
+    display: flex;
+    flex-direction: column;
+}
+
+.userArraySpan{
+    margin-left: 20px;
+}
+
+.Users{
+    padding: 1em;
+}

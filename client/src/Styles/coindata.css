@@ -1,0 +1,70 @@
+.coindataContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100px;
+    background-color: black;
+    margin: 1em 6em 0 6em;
+}
+
+.coindataContainer span{
+    font-size: larger;
+    color: whitesmoke;
+}
+
+
+.MarketCap{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.totalSupply{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.totalVolume{
+    display: flex;
+    flex-direction: column;
+}
+
+.low24h{
+    display: flex;
+    flex-direction: column;
+}
+
+.high24h{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.backArrow{
+    width: 100px;
+    height: 50px;
+    color: aliceblue;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 610px) {
+    .coindataContainer{
+        padding: 1em;
+        flex-wrap: wrap;
+    }
+
+    .coindataContainer div{
+        padding: 1em;
+    }
+
+    .coindataContainer div span{
+        font-size: 1.5em;
+    }
+
+  }

@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.coincontainer{
+    padding: 1em;
+    margin-top: 20px;
+    width: 100vh;
+    border-top: 1px solid gray;
+}
+
+.coincontainer img{
+    max-width: 25%;
+
+}
+
+.coincontainer li {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.coincontainer li span{
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.price{
+    color: antiquewhite;
+    font-size: larger;
+}
+
+.down{
+    color: red;
+    font-size: larger;
+}
+
+.up{
+    color: green;
+    font-size: larger;
+   
+}
+
+.deletebutton{
+    color: red;
+    margin-left: 0.9em;
+    display: none;
+}
+
+.coin:hover .deletebutton{
+    display: inline-flex;
+}
+
+.addButton{
+    color: aliceblue;
+}
+
+.coinName{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+

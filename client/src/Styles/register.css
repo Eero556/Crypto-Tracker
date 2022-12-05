@@ -1,0 +1,57 @@
+.registerError{
+    color: red;
+    padding: 1em;
+    text-align: center;
+}
+
+
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    background-color: #15172b;
+    border-radius: 10px;
+    padding: 5em;
+    width: 600px;
+    margin-top: 100px;
+}
+
+
+.registerForm input[type=text], input[type=password] {
+    min-width: 100%;
+    border-radius: 10px;
+    border: 2px solid green;
+    background-color: transparent;
+    font-size: larger;
+    padding: 0.6em;
+    margin: 1em 0;
+    color: whitesmoke;
+}
+
+.registerHeader{
+    color: whitesmoke;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+.registerFormContainer{
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
+    margin: 20px 20px;
+}
+
+
+.submitButton{
+    padding: 0.6em;
+    font-size: larger;
+    transition: 0.5s;
+    width: 50%;
+    align-self: center;
+}
+
+.submitButton:hover{
+    letter-spacing: 0.25em;
+}
