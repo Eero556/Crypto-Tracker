@@ -29,53 +29,53 @@ Front-end:
 
 1. Add new coin to users watclist
 - Add coin to list using axios. If coin already in watchlist then ignore
-![](Crypto/Doku/Images/addcoin-project2.PNG)
+![](https://github.com/Eero556/Crypto-Tracker/blob/main/Doku/Images/addcoin-project2.PNG)
 
 2. Delete coin from users watchlist
 - Delete coin from users watchlist and filtering list to show the process worked
-![](Crypto/Doku/Images/deletecoin-project.PNG)
+![](https://github.com/Eero556/Crypto-Tracker/blob/main/Doku/Images/deletecoin-project.PNG)
 
 3. UseContex hook that allow to keep track on users logging state and watchlist.
 - Usecontext hook to keep user status known in the app. No prop drilling!
-![](Crypto/Doku/Images/usercontexproject.PNG)
+![](https://github.com/Eero556/Crypto-Tracker/blob/main/Doku/Images/usercontexproject.PNG)
 
 4. ChartJS to show coin data
 - Using chartjs library to show data as a chart
-![](Crypto/Doku/Images/chartjsproject.PNG)
+![](https://github.com/Eero556/Crypto-Tracker/blob/main/Doku/Images/chartjsproject.PNG)
 
 5. Admin page contains other people information
-![](Crypto/Doku/Images/admin.PNG)
+![](https://github.com/Eero556/Crypto-Tracker/blob/main/Doku/Images/admin.PNG)
 
 6. User page contains only his/hers information
-![](Crypto/Doku/Images/user.PNG)
+![](https://github.com/Eero556/Crypto-Tracker/blob/main/Doku/Images/user.PNG)
 
 
 Back-end:
 
 1. Register new user
-![](Crypto/Doku/Images/backendRegisterproject.PNG)
+![](https://github.com/Eero556/Crypto-Tracker/blob/main/Doku/Images/backendRegisterproject.PNG)
 
 2. Login user
 - User login function that compares given password and password in database if match then continue
-![](Crypto/Doku/Images/backendprojectlogin.PNG)
+![](https://github.com/Eero556/Crypto-Tracker/blob/main/Doku/Images/backendprojectlogin.PNG)
 
 3. Add new coin to watchlist
 - Adding new coin to users watchlist. Getting req.user from middleware!
-![](Crypto/Doku/Images/backendAddproject.PNG)
+![](https://github.com/Eero556/Crypto-Tracker/blob/main/Doku/Images/backendAddproject.PNG)
 
 4. Delete coin from watchlist
 - Deleting coin from users watchlist. Getting req.user from middleware!
-![](Crypto/Doku/Images/Deletebackendproject.PNG)
+![](https://github.com/Eero556/Crypto-Tracker/blob/main/Doku/Images/Deletebackendproject.PNG)
 
 5. Isloggedin keep record if user is logged in
 - Using this endpoint to determine if user is logged in. Middleware will give 403 forbidden if not valid user
 ![](Crypto/Doku/Images/userupdateproject.PNG)
 
 6. Middleware that gives forbidden if no token or legit jwt token
-![](Crypto/Doku/Images/middlewareproject.PNG)
+![](https://github.com/Eero556/Crypto-Tracker/blob/main/Doku/Images/middlewareproject.PNG)
 
 7. Middleware that checks if your role is admin or user. User has access to own data and admin has access to all users data.
-![](Crypto/Doku/Images/middlewarerole.PNG)
+![](https://github.com/Eero556/Crypto-Tracker/blob/main/Doku/Images/middlewarerole.PNG)
 
 What have i learned from this project?
 
