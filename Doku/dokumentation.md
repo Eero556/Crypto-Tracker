@@ -18,9 +18,9 @@ Main features that i want to include in my app are:
 
 
 Used techologies:
-- Front-end ReactJS and CSS
-- Back-end Nodejs and Postgresql
-- Tools git, Visual Studio Code
+- Front-end: ReactJS and CSS
+- Back-end: Nodejs and Postgresql
+- Tools: git, Visual Studio Code
 
 
 Important functions that can make this app work:
