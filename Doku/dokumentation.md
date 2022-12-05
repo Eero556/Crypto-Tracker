@@ -9,7 +9,7 @@ Found simple and free api from coingeckos website and used it in my project.
 Video: https://www.veed.io/view/3d1b237d-01e4-4ac5-b949-4e17d2f88c18?panel=share
 
 Link to coingecko: https://www.coingecko.com/
-![](Crypto/Doku/Images/project-coinbase1.PNG)
+![](Crypto-Tracker/Doku/Images/project-coinbase1.PNG)
 
 Main features that i want to include in my app are:
 1. User managent system (Logging in/out and user roles) + JWT tokens
