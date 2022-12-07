@@ -54,6 +54,7 @@ Back-end:
 
 
 Postresql table for users:
+
 ![](https://github.com/Eero556/Crypto-Tracker/blob/main/Doku/Images/table-users.PNG)
 
 - Using uuid as primary key
