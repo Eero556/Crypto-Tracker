@@ -53,7 +53,7 @@ Front-end:
 Back-end:
 
 
-Postresql table for users:
+Postgresql table for users:
 
 ![](https://github.com/Eero556/Crypto-Tracker/blob/main/Doku/Images/table-users.PNG)
 
