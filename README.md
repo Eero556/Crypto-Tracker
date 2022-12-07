@@ -50,6 +50,16 @@ Front-end:
 
 Back-end:
 
+
+Postgresql table for users:
+
+![](https://github.com/Eero556/Crypto-Tracker/blob/main/Doku/Images/table-users.PNG)
+
+- Using uuid as primary key
+- basic email, password, username and role that is only user or admin
+- Watchlist is array and has default value of ('bitcoin','ethereum') that will be read in front-end.
+
+
 1. Register new user
 ![](https://github.com/Eero556/Crypto-Tracker/blob/main/Doku/Images/backendRegisterproject.PNG)
 
@@ -96,11 +106,6 @@ What would i do better next time?
 - Research more about authentication/authorization so it would be more secure. 
 
 Eero Kantonen Full-stack developer
-
-
-
-
-
 
 
 
